@@ -24,7 +24,7 @@ import { Component } from "@angular/core";
         margin: -8px;
         display: flex;
         align-items: center;
-        background-color: #1976d2;
+        background-color: #1163af;
         color: white;
         font-weight: 600;
       }
@@ -40,6 +40,15 @@ import { Component } from "@angular/core";
 
       .toolbar #twitter-logo:hover {
         opacity: 0.8;
+      }
+
+      .footer {
+        height: 40px;
+        background-color: #1163af;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
       }
     `,
   ],
