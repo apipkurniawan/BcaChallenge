@@ -1,4 +1,21 @@
-.header {
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.txt-btn {
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.topbar {
   max-width: none;
   height: 176px;
   left: 0px;
@@ -12,7 +29,7 @@
   flex-direction: column;
 }
 
-.judul {
+.header {
   margin-top: 24px;
   text-align: center;
   font-style: normal;
@@ -22,7 +39,7 @@
   color: #005cab;
 }
 
-.subjudul {
+.sub-header {
   margin-top: 4px;
   text-align: center;
   font-style: normal;
@@ -30,40 +47,27 @@
   font-size: 20px;
   line-height: 27px;
   color: #555555;
+  margin-bottom: 40px;
 }
 
-.kolom {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.kolom1 {
+.column-1 {
   margin-right: 22.5px;
 }
 
-.kolom2 {
+.column-2 {
   margin-left: 22.5px;
 }
 
 .checkbox {
+  height: 20px;
+  width: 20px;
   border: 2px solid #808080;
   box-sizing: border-box;
   border-radius: 3px;
   margin-right: 14px;
 }
 
-.box {
-  margin-top: 14px;
-  width: 368px;
-  height: 256px;
-
-  background: #f0f0f0;
-  border-radius: 8px;
-}
-
-.labelCheckbox {
+.label-cbx-bca {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -71,12 +75,112 @@
   color: #555555;
 }
 
-.btn-container {
-  display: flex;
-  justify-content: center;
+.box {
+  margin-top: 14px;
+  width: 368px;
+  height: 256px;
+  background: #f0f0f0;
+  border-radius: 8px;
 }
 
-.button {
+.rdo-btn-container {
+  padding-top: 25px;
+  margin-left: 27px;
+}
+
+.rdo-btn {
+  background: #f0f0f0;
+  margin-right: 16px;
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  top: 4px;
+  border-radius: 8px;
+  border: 2px solid #c4c4c4;
+}
+
+.label-rdo-btn {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #c4c4c4;
+  margin-right: 23px;
+}
+
+.dropdown-container {
+  margin-left: 23px;
+  margin-top: 13px;
+}
+
+.dropdown {
+  background: #dadada;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 48px;
+  width: 320px;
+}
+
+.btn-box-container {
+  margin-top: 68px;
+}
+
+.btn-no-hp {
+  border: 2px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 24px;
+  height: 40px;
+  width: 120px;
+  margin-right: 32px;
+  padding-top: 9px;
+}
+
+.btn-no-hp .txt-btn-hp {
+  font-size: 14px;
+  line-height: 19px;
+  color: #c4c4c4;
+}
+
+.btn-validasi {
+  padding-top: 9px;
+  background: #c4c4c4;
+  border-radius: 24px;
+  height: 40px;
+  width: 120px;
+}
+
+.btn-validasi .txt-btn-validasi {
+  line-height: 19px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.cbx-biaya-container {
+  margin-top: 13.67px;
+  margin-left: 24.67px;
+}
+
+.cbx-biaya {
+  margin-right: 13.67px;
+  height: 16.67px;
+  width: 16.67px;
+  left: 1.67px;
+  top: 1.67px;
+  border-radius: 3px;
+  border: 2px solid #c4c4c4;
+  box-sizing: border-box;
+}
+
+.label-cbx-biaya {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #c4c4c4;
+}
+
+.button-footer {
   padding-top: 9px;
   padding-bottom: 9px;
   margin-top: 32px;
@@ -86,12 +190,8 @@
   border-radius: 24px;
 }
 
-.txt-button {
-  font-style: normal;
-  font-weight: bold;
+.button-footer .txt-btn-footer {
   font-size: 16px;
   line-height: 22px;
-  text-align: center;
-  letter-spacing: 0.02em;
   color: #ffffff;
 }
