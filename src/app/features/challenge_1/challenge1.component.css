@@ -161,19 +161,17 @@
 }
 
 .rdo-btn-container {
-  padding-top: 25px;
   margin-left: 27px;
 }
 
 .rdo-btn {
   background: #f0f0f0;
-  margin-right: 16px;
+  margin-right: 14px;
   height: 16px;
   width: 16px;
-  left: 4px;
-  top: 4px;
   border-radius: 8px;
   border: 2px solid #c4c4c4;
+  margin-top: 28px;
 }
 
 .label-rdo-btn {
@@ -183,6 +181,7 @@
   line-height: 22px;
   color: #c4c4c4;
   margin-right: 23px;
+  margin-top: 25px;
 }
 
 .dropdown-container {
